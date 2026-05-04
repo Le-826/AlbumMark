@@ -2,6 +2,12 @@
 
 AlbumMark is a macOS menu bar companion app for Apple Music. It watches the current Apple Music playback session, calculates how far you are through the current album, and stores unfinished albums locally so you can resume them later.
 
+## How To Use
+
+Download the latest compiled build from the [AlbumMark releases page](https://github.com/Le-826/AlbumMark/releases/latest). Unzip the app, move `AlbumMark.app` to Applications if you want, then open it and grant the Apple Music and Music.app Automation permissions when macOS asks.
+
+For the most reliable album tracking and resume behavior, add the album to your Apple Music library first, then start playback from the album in your library. This helps Music.app expose stable album, track count, track order, and library identifiers. Streaming a track directly from search, recommendations, or the iTunes Store-style source can sometimes hide full album context, which may make AlbumMark fall back to less precise progress tracking or prevent album-queue resume.
+
 ## What It Does
 
 - Lives in the macOS menu bar.
@@ -40,7 +46,7 @@ Launch at login uses `SMAppService.mainApp`. It requires a signed app bundle and
 - Music.app Automation permission, requested by macOS when AlbumMark reads or resumes playback.
 - For real MusicKit authorization outside local experimentation, enable the MusicKit capability for the app identifier in your Apple developer account.
 
-## How To Run
+## Compile From Source
 
 1. Open `AlbumMark.xcodeproj` in Xcode.
 2. Select the `AlbumMark` scheme.
