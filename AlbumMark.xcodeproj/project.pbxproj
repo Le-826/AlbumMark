@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0000000000000000000001 /* AlbumMarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000002 /* AlbumMarkApp.swift */; };
+		AA0000000000000000000002 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000003 /* AppSettings.swift */; };
+		AA0000000000000000000003 /* PlaybackState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000004 /* PlaybackState.swift */; };
+		AA0000000000000000000004 /* AlbumTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000005 /* AlbumTrackInfo.swift */; };
+		AA0000000000000000000005 /* NowPlayingSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000006 /* NowPlayingSnapshot.swift */; };
+		AA0000000000000000000006 /* AlbumProgressResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000007 /* AlbumProgressResult.swift */; };
+		AA0000000000000000000007 /* AlbumProgressRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000008 /* AlbumProgressRecord.swift */; };
+		AA0000000000000000000008 /* AlbumProgressCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000009 /* AlbumProgressCalculator.swift */; };
+		AA0000000000000000000009 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000000000000000000000A /* TimeFormatter.swift */; };
+		AA000000000000000000000A /* MusicPlayerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000000000000000000000B /* MusicPlayerObserver.swift */; };
+		AA0000000000000000000017 /* MusicAppBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000000000000000000001B /* MusicAppBridge.swift */; };
+		AA000000000000000000000B /* AlbumProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000000000000000000000C /* AlbumProgressStore.swift */; };
+		AA000000000000000000000C /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000000000000000000000D /* MenuBarController.swift */; };
+		AA000000000000000000000D /* PopoverRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000000000000000000000E /* PopoverRootView.swift */; };
+		AA000000000000000000000E /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000000000000000000000F /* NowPlayingView.swift */; };
+		AA000000000000000000000F /* AlbumProgressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000010 /* AlbumProgressCardView.swift */; };
+		AA0000000000000000000010 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000011 /* SettingsView.swift */; };
+		AA0000000000000000000011 /* ArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000012 /* ArtworkView.swift */; };
+		AA0000000000000000000012 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000013 /* SectionHeader.swift */; };
+		AA0000000000000000000013 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000014 /* EmptyStateView.swift */; };
+		AA0000000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000017 /* Assets.xcassets */; };
+		AA0000000000000000000015 /* MusicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000018 /* MusicKit.framework */; };
+		AA0000000000000000000016 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000019 /* ServiceManagement.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB0000000000000000000001 /* AlbumMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbumMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0000000000000000000002 /* AlbumMarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumMarkApp.swift; sourceTree = "<group>"; };
+		AB0000000000000000000003 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		AB0000000000000000000004 /* PlaybackState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackState.swift; sourceTree = "<group>"; };
+		AB0000000000000000000005 /* AlbumTrackInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTrackInfo.swift; sourceTree = "<group>"; };
+		AB0000000000000000000006 /* NowPlayingSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingSnapshot.swift; sourceTree = "<group>"; };
+		AB0000000000000000000007 /* AlbumProgressResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumProgressResult.swift; sourceTree = "<group>"; };
+		AB0000000000000000000008 /* AlbumProgressRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumProgressRecord.swift; sourceTree = "<group>"; };
+		AB0000000000000000000009 /* AlbumProgressCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumProgressCalculator.swift; sourceTree = "<group>"; };
+		AB000000000000000000000A /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		AB000000000000000000000B /* MusicPlayerObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerObserver.swift; sourceTree = "<group>"; };
+		AB000000000000000000001B /* MusicAppBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppBridge.swift; sourceTree = "<group>"; };
+		AB000000000000000000000C /* AlbumProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumProgressStore.swift; sourceTree = "<group>"; };
+		AB000000000000000000000D /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		AB000000000000000000000E /* PopoverRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverRootView.swift; sourceTree = "<group>"; };
+		AB000000000000000000000F /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		AB0000000000000000000010 /* AlbumProgressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumProgressCardView.swift; sourceTree = "<group>"; };
+		AB0000000000000000000011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AB0000000000000000000012 /* ArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkView.swift; sourceTree = "<group>"; };
+		AB0000000000000000000013 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		AB0000000000000000000014 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		AB0000000000000000000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0000000000000000000016 /* AlbumMark.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlbumMark.entitlements; sourceTree = "<group>"; };
+		AB000000000000000000001C /* AlbumMarkDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlbumMarkDebug.entitlements; sourceTree = "<group>"; };
+		AB0000000000000000000017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB0000000000000000000018 /* MusicKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MusicKit.framework; path = System/Library/Frameworks/MusicKit.framework; sourceTree = SDKROOT; };
+		AB0000000000000000000019 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		AB000000000000000000001A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000015 /* MusicKit.framework in Frameworks */,
+				AA0000000000000000000016 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				AC0000000000000000000002 /* AlbumMark */,
+				AC0000000000000000000009 /* Frameworks */,
+				AC000000000000000000000A /* Products */,
+				AB000000000000000000001A /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0000000000000000000002 /* AlbumMark */ = {
+			isa = PBXGroup;
+			children = (
+				AB0000000000000000000002 /* AlbumMarkApp.swift */,
+				AC0000000000000000000003 /* Models */,
+				AC0000000000000000000004 /* Music */,
+				AC0000000000000000000005 /* Persistence */,
+				AC0000000000000000000006 /* Controllers */,
+				AC0000000000000000000007 /* Views */,
+				AC0000000000000000000008 /* Resources */,
+				AB0000000000000000000015 /* Info.plist */,
+				AB0000000000000000000016 /* AlbumMark.entitlements */,
+				AB000000000000000000001C /* AlbumMarkDebug.entitlements */,
+			);
+			path = AlbumMark;
+			sourceTree = "<group>";
+		};
+		AC0000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB0000000000000000000003 /* AppSettings.swift */,
+				AB0000000000000000000004 /* PlaybackState.swift */,
+				AB0000000000000000000005 /* AlbumTrackInfo.swift */,
+				AB0000000000000000000006 /* NowPlayingSnapshot.swift */,
+				AB0000000000000000000007 /* AlbumProgressResult.swift */,
+				AB0000000000000000000008 /* AlbumProgressRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC0000000000000000000004 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				AB0000000000000000000009 /* AlbumProgressCalculator.swift */,
+				AB000000000000000000000A /* TimeFormatter.swift */,
+				AB000000000000000000000B /* MusicPlayerObserver.swift */,
+				AB000000000000000000001B /* MusicAppBridge.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		AC0000000000000000000005 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				AB000000000000000000000C /* AlbumProgressStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		AC0000000000000000000006 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB000000000000000000000D /* MenuBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AC0000000000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB000000000000000000000E /* PopoverRootView.swift */,
+				AB000000000000000000000F /* NowPlayingView.swift */,
+				AB0000000000000000000010 /* AlbumProgressCardView.swift */,
+				AB0000000000000000000011 /* SettingsView.swift */,
+				AB0000000000000000000012 /* ArtworkView.swift */,
+				AB0000000000000000000013 /* SectionHeader.swift */,
+				AB0000000000000000000014 /* EmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC0000000000000000000008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB0000000000000000000017 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC0000000000000000000009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB0000000000000000000018 /* MusicKit.framework */,
+				AB0000000000000000000019 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC000000000000000000000A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0000000000000000000001 /* AlbumMark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD0000000000000000000001 /* AlbumMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AH0000000000000000000002 /* Build configuration list for PBXNativeTarget "AlbumMark" */;
+			buildPhases = (
+				AF0000000000000000000001 /* Sources */,
+				AF0000000000000000000002 /* Frameworks */,
+				AF0000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlbumMark;
+			productName = AlbumMark;
+			productReference = AB0000000000000000000001 /* AlbumMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					AD0000000000000000000001 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = AH0000000000000000000001 /* Build configuration list for PBXProject "AlbumMark" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0000000000000000000001;
+			productRefGroup = AC000000000000000000000A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD0000000000000000000001 /* AlbumMark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF0000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000014 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF0000000000000000000004 /* Ad Hoc Sign Debug App */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/AlbumMark/AlbumMarkDebug.entitlements",
+			);
+			name = "Ad Hoc Sign Debug App";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ":\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF0000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000001 /* AlbumMarkApp.swift in Sources */,
+				AA0000000000000000000002 /* AppSettings.swift in Sources */,
+				AA0000000000000000000003 /* PlaybackState.swift in Sources */,
+				AA0000000000000000000004 /* AlbumTrackInfo.swift in Sources */,
+				AA0000000000000000000005 /* NowPlayingSnapshot.swift in Sources */,
+				AA0000000000000000000006 /* AlbumProgressResult.swift in Sources */,
+				AA0000000000000000000007 /* AlbumProgressRecord.swift in Sources */,
+				AA0000000000000000000008 /* AlbumProgressCalculator.swift in Sources */,
+				AA0000000000000000000009 /* TimeFormatter.swift in Sources */,
+				AA000000000000000000000A /* MusicPlayerObserver.swift in Sources */,
+				AA0000000000000000000017 /* MusicAppBridge.swift in Sources */,
+				AA000000000000000000000B /* AlbumProgressStore.swift in Sources */,
+				AA000000000000000000000C /* MenuBarController.swift in Sources */,
+				AA000000000000000000000D /* PopoverRootView.swift in Sources */,
+				AA000000000000000000000E /* NowPlayingView.swift in Sources */,
+				AA000000000000000000000F /* AlbumProgressCardView.swift in Sources */,
+				AA0000000000000000000010 /* SettingsView.swift in Sources */,
+				AA0000000000000000000011 /* ArtworkView.swift in Sources */,
+				AA0000000000000000000012 /* SectionHeader.swift in Sources */,
+				AA0000000000000000000013 /* EmptyStateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AG0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			};
+			name = Debug;
+		};
+		AG0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AG0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_ENTITLEMENTS = AlbumMark/AlbumMarkDebug.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AlbumMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlbumMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG LOCAL_DEBUG_WITHOUT_MUSICKIT $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AG0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlbumMark/AlbumMark.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AlbumMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlbumMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AH0000000000000000000001 /* Build configuration list for PBXProject "AlbumMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AG0000000000000000000001 /* Debug */,
+				AG0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AH0000000000000000000002 /* Build configuration list for PBXNativeTarget "AlbumMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AG0000000000000000000003 /* Debug */,
+				AG0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0000000000000000000001 /* Project object */;
+}

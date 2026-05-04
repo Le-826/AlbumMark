@@ -1,0 +1,6 @@
+.DS_Store
+.backup_to_delete/
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
